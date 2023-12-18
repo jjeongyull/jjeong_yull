@@ -1,0 +1,49 @@
+.border{
+  border: 1px solid #000;
+}
+.instagram{
+  background: linear-gradient(90deg, rgba(255,193,63,1) 0%, rgba(254,118,24,1) 20%, rgba(255,84,68,1) 40%, rgba(246,31,171,1) 59%, rgba(175,45,197,1) 79%, rgba(65,65,219,1) 100%);
+}
+.border-bt{
+  border-bottom: 1px solid #000;
+}
+.youtube{
+  background-color: #c70303;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 24px;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+  background-color: #e7e7e7;
+}
+.swiper-button-next, .swiper-button-prev{
+  width: fit-content;
+  height: fit-content;
+  border-radius: 40px;
+}
